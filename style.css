@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(228, 235, 234);
+}
+
+.logo {
+  content: url('img/logo.png');
+  padding-top: 200px;
+  height: 70%;
+  width: 70%;
+}
