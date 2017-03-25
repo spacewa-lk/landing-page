@@ -23,7 +23,7 @@ body {
   background-size: cover;
   background-size: 200%;
   animation: panning 50s infinite linear;
-  filter: blur(5px);
+  filter: blur(3px);
   z-index: -1;
 }
 
