@@ -21,7 +21,6 @@ body {
   background-image:
     url('img/background.png');
   background-size: cover;
-  background-size: 200%;
   animation: panning 50s infinite linear;
   filter: blur(3px);
   z-index: -1;
