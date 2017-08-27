@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
+
+body {
+  /* Background pattern from Subtle Patterns */
+  background-image: url('img/background.svg');
+  background-repeat: repeat-x;
+  background-color: #fafafa;
+}
+
+h1,
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  height: 30%;
+  margin-bottom: 30px;
+}
+
+.greeting {
+  margin-top: 25%;
+}
+
+.coming-soon {
+  font-weight: bold;
+  font-size: 300%;
+}
