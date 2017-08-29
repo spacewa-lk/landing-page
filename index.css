@@ -14,15 +14,32 @@ h2 {
 }
 
 .logo {
-  height: 30%;
+  height: auto;
   margin-bottom: 30px;
 }
 
 .greeting {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 .coming-soon {
   font-weight: bold;
   font-size: 300%;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    height: auto;
+  }
+  .coming-soon {
+    font-size: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 60%;
+  }
+  .coming-soon {
+  }
 }
